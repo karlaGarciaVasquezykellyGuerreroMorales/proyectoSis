@@ -1,0 +1,218 @@
+html{
+font-family: arial;
+font-size: 20px;
+
+}
+
+ #texto figure img{
+              width:102%;
+          margin-left: 0%;
+      background-repeat: 5%;
+}
+
+body{
+      background-color: #eee);
+        background-size: 400%;
+         background-repeat:repeat-x; 
+         
+               background-attachment: fixed;
+                font-family: arial;
+          font-size: 14px;
+}
+
+
+#imagen1 figure img{
+  left: 218px;
+  top: 101px;
+              width:20%;
+          margin-left: 0%;
+      background-repeat: 2%;
+      float: left;
+       cursor: pointer;
+}
+
+
+#imagen2 figure img{
+  left: 218px;
+  top: 101px;
+              
+              width:20%;
+          margin-left: 10%;
+      background-repeat: 15%;
+     float: left;
+         cursor: pointer; 
+}
+
+
+#imagen3 figure img{
+              width:20%;
+          margin-left: 15%;
+      background-repeat: 5%;
+    cursor: pointer; 
+}
+
+#imagen4 figure img{
+              width:20%;
+          margin-left: 0%;
+      background-repeat: 5%;
+     float: left;
+ cursor: pointer; 
+}
+
+#imagen5 figure img{
+              width:20%;
+          margin-left: 10%;
+      background-repeat: 5%;
+     float: left;
+cursor: pointer; 
+}
+
+#imagen6 figure img{
+              width:20%;
+          margin-left: 15%;
+      background-repeat: 5%;
+     cursor: pointer; 
+}
+
+
+
+  h1{
+        
+          font-family: arial;
+          font-size: 45px;
+        }
+
+        header h1{
+  font-size:20px;
+  text-align:center;
+  font-weight:normal;
+  margin:0.2em 70px 0 0;
+
+          font-family: arial;
+          font-size: 23px;
+}
+header{
+  background-color:rgba(223, 107, 186, 0.69);
+  color:#fff;
+  padding:50px;
+  overflow:hidden;
+}
+
+table{
+  font-family: arial;
+          font-size: 25px;
+}
+
+#textoDui{
+ 
+  width:80%;
+  height:100%;
+     background-color: rgba(21, 70, 134, 1);
+     background-attachment: fixed;
+       background-size: 95%;
+  color:"black"; 
+  margin:0 auto;
+  text-align:left;
+  border-radius:5px;
+  padding:25px;
+  box-shadow:0px 0px 0px rgba(0,0,0,0.5);
+
+      background-repeat: 10%;
+}
+
+#textoPr{
+ 
+  width:100%;
+  height:100%;
+     background-color: rgb(244, 204, 226);
+     background-attachment: fixed;
+       background-size: 95%;
+  color:"black"; 
+  margin:0 auto;
+  text-align:left;
+  border-radius:5px;
+  padding:25px;
+  box-shadow:0px 0px 0px rgba(0,0,0,0.5);
+
+      background-repeat: 10%;
+}
+
+#textoD{
+ 
+  width:80%;
+  height:100%;
+     background-color: rgb(242, 236, 169);
+     background-attachment: fixed;
+       background-size: 95%;
+  color:"black"; 
+  margin:0 auto;
+  text-align:left;
+  border-radius:5px;
+  padding:25px;
+  box-shadow:0px 0px 0px rgba(0,0,0,0.5);
+
+      background-repeat: 10%;
+}
+
+#textoA{
+ 
+  width:80%;
+  height:100%;
+     background-color: rgb(204, 220, 244);
+     background-attachment: fixed;
+       background-size: 95%;
+  color:"black"; 
+  margin:0 auto;
+  text-align:left;
+  border-radius:5px;
+  padding:25px;
+  box-shadow:0px 0px 0px rgba(0,0,0,0.5);
+
+      background-repeat: 10%;
+}
+
+#text{
+ 
+  width:75%;
+     background-color: rgb(218, 138, 202);
+     background-attachment: fixed;
+       background-size: 95%;
+  color:"black"; 
+  margin:0 auto;
+  text-align:left;
+  border-radius:30px;
+  padding:25px;
+  box-shadow:0px 0px 0px rgba(0,0,0,0.5);
+
+      background-repeat: 10%;
+}
+
+#tex{
+ 
+  width:75%;
+     background-color: rgb(243, 244, 214);
+     background-attachment: fixed;
+       background-size: 95%;
+  color:"black"; 
+  margin:0 auto;
+  text-align:left;
+  border-radius:30px;
+  padding:25px;
+  box-shadow:0px 0px 0px rgba(0,0,0,0.5);
+
+      background-repeat: 10%;
+}
+
+#titulo header{
+ background-color:rgb(224, 201, 42);
+  color:#fff;
+  padding:;
+  overflow:hidden;
+}
+
+#titulo2 header{
+ background-color:rgb(38, 148, 195);
+  color:#fff;
+  padding:;
+  overflow:hidden;
+}

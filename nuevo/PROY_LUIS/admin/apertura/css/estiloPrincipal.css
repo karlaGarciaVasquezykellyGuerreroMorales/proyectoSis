@@ -1,0 +1,139 @@
+
+html{
+font-family: Aldhabi;
+font-size: 30px;
+
+}
+
+#imagen2 figure img{
+              width:100%;
+          margin-left: 1%;
+      background-repeat: 40%;
+}
+
+
+body{
+      background-image:url("../imagen/874.jpg");
+        background-size: 400%;
+         background-repeat:repeat-x; 
+         
+               background-attachment: fixed;
+}
+
+ 		
+ figure img{
+              width:30%;
+          margin-left: 30.5%;
+      background-repeat: 40%;
+}
+
+ #imagen figure img{
+              width:60%;
+          margin-left: 20%;
+      background-repeat: 40%;
+}
+
+ 
+#textoPr{
+ 
+	width:75%;
+	 background-image:url("../imagen/df.jpg");
+     background-attachment: fixed;
+       background-size: 95%;
+	color:"black"; 
+	margin:0 auto;
+	text-align:left;
+	border-radius:30px;
+	padding:25px;
+	box-shadow:2px 8px 0px rgba(0,0,0,0.5);
+
+      background-repeat: 10%;
+}
+
+ #boton ul{
+
+             list-style-type: none;
+             text-align-size: 100%;
+             }
+
+            #boton li{
+            	width:50%;
+            display: inline;
+            text-align: center;
+			font: bold 50% Aldhabi, sans-serif;
+            margin: 2 9% 2 0;
+            }
+
+            #boton li a {
+            	width:2%;
+            padding: 2% 5% 2% 5%;
+            color:    #330033;
+            background-color:   #CCCC99;
+            border: 75% solid: #FFFF66;
+            text-decoration: none;
+			border-radius:2%;
+            }
+
+            #boton li a:hover{
+            	width:75%;
+            background-color: #ffffff;
+            color: #ff4442;
+            }
+
+        h1{
+        
+          font-family: Aldhabi;
+          font-size: 30px;
+        }
+
+
+            #center  td{
+              text-align: left;
+                text-align: center;
+            }
+
+            #center  input{
+                text-align: center;
+            }
+            
+            #inicio nav{
+  background:#34425C;
+  box-shadow:rgba(0,0,0,0.5) 0px 0px 1px;
+  padding:0 2em 0 0;
+  position:relative;
+
+
+
+}
+
+ 
+#inicio nav ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+
+
+
+ 
+#inicio nav ul li{
+  display: inline-block;
+  margin:0 1em 0 0;
+}
+
+
+ 
+#inicio nav ul li a{
+  color:#fff;
+  display:block;
+  padding:0.5em;
+  text-decoration:none;
+  -webkit-transition:0.3s;
+}
+ 
+#inicio nav ul li a:hover{
+  background:#1189A5;
+
+
+}

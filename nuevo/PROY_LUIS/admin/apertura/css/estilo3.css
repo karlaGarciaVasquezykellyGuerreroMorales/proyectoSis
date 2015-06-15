@@ -1,0 +1,153 @@
+html{
+font-family: Aldhabi;
+font-size: 30px;
+
+}
+body{
+   background-color:rgb(147, 155, 158);
+   background-size: 350%;
+         background-repeat:repeat-x; 
+           background-attachment: fixed;
+        
+  font-family: "candelabook";
+  font-size:16px;
+}
+ 
+
+#inicio nav{
+  background:#34425C;
+  box-shadow:rgba(0,0,0,0.5) 0px 0px 1px;
+  padding:0 2em 0 0;
+  position:relative;
+
+
+
+}
+
+ 
+#inicio nav ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+
+
+
+ 
+#inicio nav ul li{
+  display: inline-block;
+  margin:0 1em 0 0;
+}
+
+
+ 
+#inicio nav ul li a{
+  color:#fff;
+  display:block;
+  padding:0.5em;
+  text-decoration:none;
+  -webkit-transition:0.3s;
+}
+ 
+#inicio nav ul li a:hover{
+  background:#1189A5;
+
+
+}
+
+header h1{
+  font-size:1.2em;
+  font-weight:normal;
+  margin:0.2em 70px 0 0;
+}
+header{
+  background:rgba(11, 17, 19, 0.69);
+  color:#fff;
+  padding:0.5em;
+  overflow:hidden;
+}
+
+header figure img{
+   width:105%;
+          margin-left: 0%;
+      background-repeat: 40%;
+
+}
+
+
+ #boton nav{
+   display: inline;
+  text-align: center;
+
+ }
+
+
+#tex{
+ 
+  width:35%;
+   background-color: #488484;
+     background-attachment: fixed;
+       background-size: 35%;
+        font-size:150%;
+  color:"black"; 
+  margin:0 auto;
+  text-align:center;
+  border-radius:30px;
+  padding:25px;
+  box-shadow:2px 8px 0px rgba(0,0,0,0.5);
+
+
+}
+ #header {
+        float:left;
+        width:500px;
+        font-family:Arial, Helvetica, sans-serif;
+      }
+      
+      ul, ol {
+        list-style:none;
+      }
+      
+      .nav {
+        width:700px;
+        margin: auto; 
+margin-left: 55%;
+      }
+ 
+      .nav > li {
+        float:left;
+         background-color:rgb(68, 126, 124);
+      }
+      
+      .nav li a {
+        background-color:rgb(55, 43, 43);
+        color:#fff;
+        text-decoration:none;
+        padding:10px 12px;
+        display:block;
+      }
+      
+      .nav li a:hover {
+        background-color:rgb(66, 155, 194);
+        color:#000;
+      }
+      
+      .nav li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+      }
+      
+      .nav li:hover > ul {
+        display:block;
+      }
+      
+      .nav li ul li {
+        position:relative;
+      }
+      
+      .nav li ul li ul {
+        right:-140px;
+        top:0px;
+      }

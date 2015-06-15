@@ -1,0 +1,45 @@
+ACCESO DE INICIO DE SESSION
+
+Clave: 123123
+Usuario: karliss
+
+
+ACCESO A  PAPELETAS
+
+Datos del Votante:
+
+Dui: 
+12546987
+
+NOMRE:
+mary
+
+APELLIDO
+mundo
+
+FECHA
+2012-02-12
+
+GENERO
+F
+
+DEPARTAMENTO
+07
+
+MUNICIPIO
+0701
+
+
+PARA VOTANTE
+
+http://localhost/detartanento_municipio/nuevo/PROY_LUIS/votante/voto.php
+
+PARA TSE
+
+http://localhost/detartanento_municipio/nuevo/PROY_LUIS/admin/index.php
+
+BASE DE DATOS:
+re_votaciones.sql
+
+karla ivette garcia vasquez
+kelly esteli morales guerrero

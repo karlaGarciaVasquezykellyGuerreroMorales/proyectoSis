@@ -1,0 +1,297 @@
+body {
+      font-size:14px; margin:0;
+}
+.contenedor {
+     margin:0 auto;
+     width:800px; 
+     text-align:center;
+}
+span {
+     color:red;
+}
+#formulario {
+     margin:0 auto;
+     border-radius:5px;
+     box-shadow:15px 3px 2px #2829A0;
+     border:0px solid #000;
+     width:400px;
+     padding:25px;
+     background:#EDEDED;
+}
+input {
+     border-radius:5px;
+     padding:8px;
+}
+button {
+     border-radius:9px;
+     padding:10px;
+     background:rgba(15, 39, 165, 1);
+     color:rgba(223, 220, 21, 1);
+     cursor:pointer;
+}
+
+* {
+     margin:0;
+     padding:0;
+}
+
+/*Estilos de BOTONES*/
+.button {
+     background:#7f8c8d;
+     color:#fff;
+     display:inline-block;
+     font-size:1.0em;
+     margin:0px;
+     padding:0px 0;
+     text-align:center;
+     width:100px;
+     text-decoration:none;
+     box-shadow:0px 0px 0px ;
+}
+
+.button span {
+     margin-right:10px;
+}
+
+/*Colores*/
+.button.blue {
+     background:#3498db;
+     box-shadow:1px 0px 1px #266792;
+}
+
+.button.yellow {
+     background:#e67e22;
+     box-shadow:0px 3px 0px #b55704;
+}
+
+
+/*Tamaños*/
+.button.medium {
+     width:350px;
+}
+
+
+.button.large {
+     width:450px;
+}
+
+
+.button.radius {
+     border-radius:50px;
+}
+
+/*Efectos, Hover*/
+.button:hover {
+     box-shadow:0px 0px 0px;
+     padding-top:7px;
+}
+
+/**ESTILO DE VALIDACION**/
+
+*{
+     font-family: sans-serif;
+     font-size: 20px;
+     color: #4F51C7;
+}
+body{
+     width: 1000px;
+     margin: auto;
+     background-color: #E2ECEE;
+}
+.contacto{
+     border: 1px solid #CED5D7;
+     border-radius: 6px;
+     padding: 45px 45px 20px;
+     margin-top: 50px;
+     background-color: white;
+     box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+.contacto label{
+     display: block; 
+     font-weight: bold;
+}
+.contacto div{
+     margin-bottom: 15px;
+}
+.contacto input[type='text'], .contacto textarea{
+     padding: 7px 6px;
+     width: 294px;
+     border: 1px solid #CED5D7;
+     resize: none;
+     box-shadow:0 0 0 3px #EEF5F7;
+     margin: 5px 0;
+}
+.contacto input[type='text']:focus, .contacto textarea:focus{
+     outline: none;
+     box-shadow:0 0 0 3px #dde9ec;
+}
+.contacto input[type='text'].invalido, .contacto textarea.invalido{
+     box-shadow:0 0 0 3px #FFC9C9;
+}
+.contacto input[type='submit']{
+     border: 1px solid #CED5D7;
+     box-shadow:0 0 0 3px #EEF5F7;
+     padding: 8px 16px;
+     border-radius: 20px;
+     font-weight: bold;
+     text-shadow: 1px 1px 0px white;
+     
+     background: #e4f1f6; 
+     background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+     background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%); 
+}
+.contacto input[type='submit']:hover{
+     background: #edfcff; 
+     background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+     background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%); 
+}
+.contacto input[type='submit']:active{
+     background: #cfe6ef; 
+     background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+     background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
+.error{
+    background-color: #BC1010;
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 6px;
+    padding: 6px 12px;
+    position: absolute;
+}
+.error:before{
+    border-color: transparent #BC1010 transparent transparent;
+    border-style: solid;
+    border-width: 6px 8px;
+    content: "";
+    display: block;
+    height: 0;
+    left: -16px;
+    position: absolute;
+    top: 8px;
+    width: 0;
+}
+.result_fail{
+    background: none repeat scroll 0 0 #BC1010;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+}
+.result_ok{
+    background: none repeat scroll 0 0 #1EA700;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+
+/* A partir de aqui es solo cosmetico, lo puedes borrar */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    background:#5257A3;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.fr{
+    float: right;
+}
+.fl, .votar{
+    float: right;
+}
+.cf{
+    clear: both;
+}
+.wrap{
+    padding: 25px;
+    margin: 0 auto;
+    width: 385px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    margin-top: 70px;
+    border: 1px solid #E0E0E0;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 21px;
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 15px;
+    text-align: center;
+}
+form > div{
+    margin-bottom: 20px;
+}
+form .titulo{
+    margin-right: 20px;
+}
+form label{
+    display: block;
+}
+form input[type='text'], select{
+    border: 1px solid #E0E0E0;
+    padding: 6px;
+    resize: none;
+}
+form input[type="submit"]{
+    padding: 8px 16px;
+    background: gray;
+    border: 0;
+    display: block;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+}
+form input[type="submit"]:hover{
+    background: #505050;
+}
+ul.votacion{
+    margin-bottom: 25px;
+    list-style: none;
+}
+.votacion li{
+    padding: 8px;
+    background: #FCFCFC;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.votacion li:hover{
+    background: white;
+}
+.votacion li a{
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+}
+.votacion li a:hover{
+    color: black;
+}
+.votacion li span{
+    margin-left: 10px;
+}
+.votacion .fl{
+    margin-bottom: 5px;
+}
+.volver{
+    display: block;
+    padding-top: 15px;
+    clear: both;
+}
+.resultado{
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    color: black;
+}
